@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+@font-face {
+    font-family:pokemon;
+    src: url(../font/pokemon1.ttf);
+}
+    @font-face {
+        font-family:pokemon1;
+        src: url(../font/pokemon.ttf)
+}
+
+.pFooter{
+    font-family:pokemon1;
+}
+
+.pFooter1{
+    font-family:pokemon;
+}

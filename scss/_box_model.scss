@@ -1,0 +1,70 @@
+.ancho{
+    width: 50%;
+    height: 10vh;
+}
+.borde{
+    border: solid 5px rgb(11, 17, 131);
+}
+
+.borde-img{
+    border: solid 2px black;
+}
+.bordeModos{
+    border: dashed 5px rgb(11, 17, 131);
+    width: 100%;
+
+}
+
+.bordeMul{
+    border: solid 5px goldenrod;
+}
+.imagen-fondos{
+    width: 640px;
+    height: 480px;
+    margin: 20px;
+    
+}
+
+.colorTexto{
+    background-color: rgb(11, 17, 131);
+}
+
+.imagenMC{
+    width: 50%;
+    height: 50vh;
+    
+}
+.imagenPersonaje{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.imagenPersonaje img{
+    max-height: calc(100% - 4px);
+    width: auto;
+}
+.margen{
+    margin: 0px;
+    
+
+}
+
+.margen-interno{
+    padding: 10px;
+
+}
+.nav-footer{
+    text-align: end;
+}
+
+.parrafo-footer{
+    text-align: center;
+}
+
+.padding{
+    padding: 5px;
+}
+
+.textoIndex{
+    font-size: large;
+    font-weight: 900;
+}

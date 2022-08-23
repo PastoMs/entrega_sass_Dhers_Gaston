@@ -1,0 +1,16 @@
+@import "tipografia";
+@import "efectos";
+@import "estilos_generales";
+@import "flex";
+@import "box_model";
+@import "grid";
+
+
+/*variable*/
+$colorTitulos: rgb(134, 223, 245);
+
+$colorfondos: rgb(4, 11, 147);
+
+#uno{
+    width: 600px;
+}

@@ -1,0 +1,200 @@
+/*GRIDS*/
+
+/*Grid explicitas*/
+
+
+.grid-fondos{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-template-rows: 50% 50%;
+    gap: 50px;
+    
+}
+
+/*Grid por areas*/
+
+.grid-area{
+    display: grid;
+    grid-template-areas:
+    "titulo titulo titulo"
+    "img1   img2   img3"
+    "img4   img5   img6"
+    "img7   img8   img9"
+    "img10  img11  img12";
+     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 50px;
+}
+.grid-area2{
+    display: grid;
+    grid-template-areas:
+    "titulo2 titulo2 titulo2"
+    "img13   img14   img15"
+    "img16   .       .";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 50px;
+}
+.grid-area3{
+    display: grid;
+    grid-template-areas:
+    "titulo3 titulo3 titulo3"
+    "img17   img18   img19"
+    "img20   img21   .";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 50px;
+    
+}
+.grid-area4{
+    display: grid;
+    grid-template-areas:
+    "titulo4 titulo4 titulo4"
+    "img22   img23   img24"
+    "img25   img26   img27"
+    "img28   .       .";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 50px;
+}
+    .grid-area5{
+     display: grid;
+     grid-template-areas:
+     "titulo5 titulo5 titulo5"
+     "img29   img30   img31"
+     "img32   img33   img34"
+     "img35   img36   .";
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: auto;  
+    gap: 50px;
+    }
+
+.titulo{
+    grid-area: titulo;
+    position: relative;
+}
+.titulo2{
+    grid-area: titulo2;
+    position: relative;
+}
+.titulo3{
+    grid-area: titulo3;
+    position: relative;
+}
+.titulo4{
+    grid-area: titulo4;
+    position: relative;
+}
+.titulo5{
+    grid-area: titulo5;
+    position: relative;
+}
+
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.img4{
+    grid-area: img4;
+}
+.img5{
+    grid-area: img5;
+}
+.img6{
+    grid-area: img6;
+}
+.img7{
+    grid-area: img7;
+}
+.img8{
+    grid-area: img8;
+}
+.img9{
+    grid-area: img9;
+}
+.img10{
+    grid-area: img10;
+}
+.img11{
+    grid-area: img11;
+}
+.img12{
+    grid-area: img12;
+}
+.img13{
+    grid-area: img13;
+}
+.img14{
+    grid-area: img14;
+}
+.img15{
+    grid-area: img15;
+}
+.img16{
+    grid-area: img16;
+}
+.img17{
+    grid-area: img17;
+}
+.img18{
+    grid-area: img18;
+}
+.img19{
+    grid-area: img19;
+}
+.img20{
+    grid-area: img20;
+}
+.img21{
+    grid-area: img21;
+}
+.img22{
+    grid-area: img22;
+}
+.img23{
+    grid-area: img23;
+}
+.img24{
+    grid-area: img24;
+}
+.img25{
+    grid-area: img25;
+}
+.img26{
+    grid-area: img26;
+}
+.img27{
+    grid-area: img27;
+}
+.img28{
+    grid-area: img28;
+}
+.img29{
+    grid-area: img29;
+}
+.img30{
+    grid-area: img30;
+}
+.img31{
+    grid-area: img31;
+}
+.img32{
+    grid-area: img32;
+}
+.img33{
+    grid-area: img33;
+}
+.img34{
+    grid-area: img34;
+}
+.img35{
+    grid-area: img35;
+}
+.img36{
+    grid-area: img36;
+}
