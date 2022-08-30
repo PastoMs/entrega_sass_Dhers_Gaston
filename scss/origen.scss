@@ -11,6 +11,82 @@ $colorTitulos: rgb(134, 223, 245);
 
 $colorfondos: rgb(4, 11, 147);
 
+$anchura: 100%;
+
+$altura: 90px;
+
 #uno{
     width: 600px;
 }
+
+
+/*extend*/
+.nav-footer {
+    text-align: end;
+    color: gold;
+    font-size: 1.5rem;
+  }
+
+  .nav-footerAzul{
+    @extend .nav-footer;
+    color: $colorTitulos;
+  }
+  .nav-footerVioleta{
+    @extend .nav-footer;
+    color: rgb(177, 6, 177);
+  }
+  .nav-footerVerde{
+    @extend .nav-footer;
+    color:green;
+  }
+  .nav-footerBlanco{
+    @extend .nav-footer;
+    color:white;
+  }
+  
+  /*Mixin*/
+
+  @mixin tamanio ($anchura, $altura) {
+    width: $anchura;
+    height: $altura;
+  }
+
+  .ul-nav{
+    @include tamanio($anchura, $altura)
+  }
+
+  /*each*/
+
+  @each $secciones in body, header, main, footer {
+  #{$secciones} {
+    background-color: purple;
+  }
+  }
+
+  /*mapa*/
+
+  $mapa: (
+    facebook: groove 3px #55acee,
+    instagram: groove 3px rgb(143, 52, 143),
+    twitch: groove 3px violet,
+    youtube: groove 3px red
+  );
+
+  @each $nombres, $colorcito in $mapa{
+    .boton-#{$nombres} {
+        border: $colorcito;
+    }
+  }
+
+  section div.facebook{
+    border: map-get($mapa, facebook )
+  }
+  section div.instagram{
+    border: map-get($mapa, instagram )
+  }
+  section div.twitch{
+    border: map-get($mapa, twitch )
+  }
+  section div.youtube{
+    border: map-get($mapa, youtube )
+  }

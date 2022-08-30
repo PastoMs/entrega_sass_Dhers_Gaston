@@ -18,6 +18,10 @@
 .bordeMul{
     border: solid 5px goldenrod;
 }
+
+.borde-icon{
+    border: none
+}
 .imagen-fondos{
     width: 640px;
     height: 480px;
@@ -27,6 +31,10 @@
 
 .colorTexto{
     background-color: rgb(11, 17, 131);
+}
+.iconos{
+    padding: 20px;
+    gap: 20px;
 }
 
 .imagenMC{
@@ -67,4 +75,7 @@
 .textoIndex{
     font-size: large;
     font-weight: 900;
+}
+.mFooter{
+    margin: 20px;
 }
