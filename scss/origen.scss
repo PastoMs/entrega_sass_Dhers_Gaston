@@ -1,3 +1,5 @@
+
+@import "queries";
 @import "tipografia";
 @import "efectos";
 @import "estilos_generales";
@@ -57,7 +59,7 @@ $altura: 90px;
 
   /*each*/
 
-  @each $secciones in body, header, main, footer {
+  @each $secciones in header, main {
   #{$secciones} {
     background-color: purple;
   }

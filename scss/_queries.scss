@@ -1,0 +1,19 @@
+/* desktop*/
+@media(min-width: 1024px){
+
+}
+
+
+/*tablet*/
+@media(min-width:600px) and (max-widht:1023px){
+
+}
+
+/*smartphone*/
+
+@media(max-width: 599px){
+    h1{
+        width: 100%;
+    }
+
+}
